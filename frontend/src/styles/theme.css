@@ -1,0 +1,28 @@
+/* Global theme tokens and light/dark modes */
+:root {
+  /* App surface */
+  --app-bg: linear-gradient(180deg, #f7f9fc 0%, #ffffff 100%);
+  --card-radius: 12px;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -2px rgba(0,0,0,0.05);
+
+  /* Element Plus core colors override */
+  --el-color-primary: #3b82f6;
+  --el-color-success: #10b981;
+  --el-color-warning: #f59e0b;
+  --el-color-danger:  #ef4444;
+}
+
+[data-theme="dark"] {
+  --app-bg: linear-gradient(180deg, #0b1220 0%, #0e1626 100%);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.5), 0 1px 2px rgba(0,0,0,0.4);
+  --shadow-md: 0 10px 20px rgba(0,0,0,0.45), 0 6px 10px rgba(0,0,0,0.35);
+
+  --el-color-primary: #60a5fa;
+  --el-color-success: #34d399;
+  --el-color-warning: #fbbf24;
+  --el-color-danger:  #f87171;
+}
+
+html, body, #app { height: 100%; }
+body { background: var(--app-bg); }
