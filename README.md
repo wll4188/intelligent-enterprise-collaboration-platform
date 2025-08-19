@@ -2,7 +2,7 @@
 
 一个基于AI的现代化企业协作平台，集成了智能对话、文档管理、任务协作等功能。
 
-## ✨ 功能特性
+##  功能特性
 
 - 🤖 **智能对话**：支持OpenAI GPT、Google Gemini、Anthropic Claude等多种AI模型
 - 💬 **实时聊天**：流式对话体验，支持上下文记忆
@@ -10,7 +10,7 @@
 - 🔒 **用户认证**：完整的注册/登录/权限管理系统
 - 🚀 **高性能**：Django + FastAPI双后端架构
 
-## 🚀 快速开始
+## 快速开始
 
 ### 环境要求
 - Python 3.11+
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload --port 8001
 ```
 
-## 📁 项目结构
+## 项目结构
 
 ```
 intelligent-collaboration-platform/
@@ -84,7 +84,7 @@ intelligent-collaboration-platform/
 └── Makefile             # 常用命令
 ```
 
-## 🔧 配置说明
+## 配置说明
 
 ### 环境变量
 ```bash
@@ -107,13 +107,13 @@ DEBUG=true
 ALLOWED_HOSTS=localhost,127.0.0.1
 ```
 
-## 📖 API文档
+## API文档
 
 - **后端API**: http://localhost:8000/api/docs/
 - **AI服务API**: http://localhost:8001/docs/
 - **前端访问**: http://localhost:3000/
 
-## 🧪 测试
+## 测试
 
 ```bash
 # 后端测试
@@ -128,40 +128,12 @@ npm run test
 npm run test:e2e
 ```
 
-## 📊 监控面板
+## 监控面板
 
 - **Grafana仪表板**: http://localhost:3001/
 - **Prometheus监控**: http://localhost:9090/
 - **Jaeger链路追踪**: http://localhost:16686/
 
-## 🤝 贡献指南
 
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启 Pull Request
 
-## 📝 开发路线图
-
-- [x] 基础架构设计
-- [x] 用户认证系统
-- [ ] AI对话服务
-- [ ] 实时协作编辑
-- [ ] 项目管理模块
-- [ ] 高级搜索功能
-- [ ] 移动端适配
-
-## 📄 许可证
-
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
-
-## 💬 社区
-
-- 📧 邮箱: support@collaboration-platform.com
-- 💬 讨论: [GitHub Discussions](https://github.com/your-username/intelligent-collaboration-platform/discussions)
-- 🐛 问题反馈: [GitHub Issues](https://github.com/your-username/intelligent-collaboration-platform/issues)
-
----
-
-⭐ 如果这个项目对你有帮助，请给我们一个 Star！
+如果这个项目对你有帮助，请给我一个 Star！
